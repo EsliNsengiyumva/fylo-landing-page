@@ -1,0 +1,260 @@
+body{
+    font-family: 'Raleway', sans-serif;   
+}
+*{
+  overflow-x: hidden;
+}
+p{
+    font-size: 15px;
+    font-style: normal;
+}
+
+
+.topnav {
+  overflow: hidden;
+  margin-top:-43px;
+}
+
+.topnav a {
+  float: left;
+  color:hsl(0, 1%, 16%);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+   text-decoration: underline;
+}
+
+.topnav-right {
+  float: right;
+}
+.log{
+  margin-top: 2%;
+  width: 20%;
+  margin-left: 4%;
+}
+.img{
+        margin-top: -20%;
+        margin-left: 55%;
+        width:580px;
+        height:400px;
+}
+.div-0{
+        margin-top: 6%;
+        font-size: 28px;
+        width: 40%;
+        height: auto;
+        margin-left: 4%;
+    }
+.div-1{
+   margin-top: -2%;
+   width: 500px;
+   height: auto;
+   margin-left: 4%;
+}
+
+.img-diago{
+  width: 100%;
+  height:100vh;
+  margin-top: 10%;
+ 
+} 
+.div-2{
+  width: 400px;
+  height: 140px;
+  margin-left: 4%;
+  text-decoration: none;
+}
+.div-3{
+  width: 400px;
+  height: 100px;
+  margin-left: 4%;
+  
+}
+.a-1{
+  color:hsl(170, 45%, 43%);   
+  text-decoration: underline;
+  margin-left: 4%;
+}
+
+.div-4{
+  width:40%;
+  height: 60vh;
+  margin-left: 4%;
+} 
+.div-5{
+  color:hsl(240, 75%, 98%);
+  margin-top: 20%;
+  
+}
+.txt-1{
+    width: 20%;
+    height: 1%;
+    padding: 10px 32px;
+    margin-left: 4%;
+}
+.txt-2{
+  width: 20%;
+  height: 1%;
+  padding: 10px 32px;
+  
+}
+.button-1{
+    
+      background-color: hsl(224, 93%, 58%);
+      border: none;
+      color:hsl(240, 75%, 98%);
+      padding: 10px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+}
+.div-5{
+    background-color:  hsl(238, 22%, 44%);
+    height: 40vh;
+    margin-top:1%;
+    width: 100%;
+}
+.div-6{
+   background-color: hsl(243, 87%, 12%);
+   width: 100%;
+}
+.div-8{
+  width: 500px;
+  height: auto;
+  color:hsl(240, 75%, 98%);
+  margin-top: 4%;
+  margin-left: 4%;
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: block ;
+}
+li a {
+  display: block;
+  color: hsl(240, 75%, 98%);
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  line-height: 1px;
+}
+li a:hover {    
+ text-decoration: underline;
+}
+.nav-footer{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-top:-5%;
+    width: 100%;
+}
+.item{
+    padding: 6%;
+    color:hsl(240, 75%, 98%);
+    margin-left: -2%;
+}
+.div-child-1{
+  width: 50px;
+  margin-top: 10%;
+
+}
+.div-child-2{
+  width: 200px;
+  margin-left: 15%;
+  margin-top: -10%;
+  font-size: 14px;
+}
+.pr{
+  margin-top: 10%;
+  margin-left: 4%;
+}
+.child-img{
+  border-radius:50%;
+  width: 30px;
+  height:30px;
+  margin-left: 10%;
+  justify-content: right;
+  
+}
+.div-9{
+  margin-left: 50%;
+  width:150%;
+  margin-top: -9%;
+}
+.img-back{
+ margin-left: 40%;
+ width: 70%;
+ height: 60vh;
+ margin-top: -20%;
+}
+
+.box {
+  width:50%;
+  height:260px;
+  background:hsl(240, 75%, 98%);
+  margin-top: 1%;
+}
+.effect6
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(250, 248, 248, 0.1) inset;
+}
+
+.img-log{
+  margin-left: 4%;
+  margin-top: 4%;
+  text-decoration:hsl(240, 75%, 98%);
+  color: hsl(240, 75%, 98%);
+  
+   
+}
+.div-img{ 
+  width: 40%;
+  height: 300px;
+  margin-bottom: 10%;
+  margin-left: 60%;
+}
+.a{
+  padding: 4px;
+}
+.a:hover{
+  text-decoration: underline;
+}
+
+.div-backround{
+  position:absolute;
+  width: 100%;
+ background-color:hsl(240, 75%, 98%);
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+   margin-top: -42%; 
+   overflow-y: hidden; 
+}
+
+.a {
+  width: 50%;
+  height: 100%;   
+}
+.b {
+  width: 49%;
+  height: 113%;  
+  margin-left: 50%;
+  margin-top: -50%;
+ }
