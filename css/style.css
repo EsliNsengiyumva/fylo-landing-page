@@ -277,13 +277,13 @@ li a:hover {
   overflow-y: hidden; 
 }
 
-.a {
+.div-a {
   width: 50%;
   height: 100%;  
   text-decoration: none; 
   
 }
-.b {
+.div-b {
   width: 49%;
   height: 113%;  
   margin-left: 50%;
@@ -291,6 +291,13 @@ li a:hover {
  }
 .img-align{
   filter: brightness(0%) invert(1);
+}
+
+.class-p{
+  margin-left: 4%;
+}
+.class-div-img{
+  margin-top:6%;margin-left: 4%;
 }
 @media only screen and (max-width: 375px) {
 .img{
