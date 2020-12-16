@@ -136,7 +136,7 @@ p{
 }
 
 .btn-btn{
-  background-color: hsl(224, 93%, 58%);
+      background-color: hsl(224, 93%, 58%);
       border: none;
       color:hsl(240, 75%, 98%);
       padding: 10px 32px;
@@ -144,7 +144,6 @@ p{
       text-decoration: none;
       display: inline-block;
       font-size: 16px;
-     
       cursor: pointer;
 }
 .btn-22{
@@ -256,8 +255,6 @@ li a:hover {
   margin-top: 4%;
   text-decoration:hsl(240, 75%, 98%);
   color: hsl(240, 75%, 98%);
-  
-   
 }
 .div-img{ 
   width: 40%;
@@ -308,11 +305,16 @@ li a:hover {
 .btn-3{
   display: none;
 }
-.ttt{
-  
+
+.class-tt{
+  display: none;
+}
+.bg-curve{
+  display: none;
 }
 
-@media only screen and (max-width: 375px) {
+@media (max-width: 375px) {
+
 .img{
     width:350px;
     height:auto;
@@ -391,6 +393,7 @@ li a:hover {
 .bg-curve{
   width: 100%; 
   margin-top: 10%;
+  display: flex;
 }
 .div-a{
   width: 100%;
@@ -506,10 +509,10 @@ li a:hover {
   margin-left: -20px;
 }
 
-.ttt{
+
+.class-tt{
+  display: flex;
   background-color:hsl(240, 75%, 98%);
-  height: auto;
-  margin-top: -3%;
 }
 
 }
