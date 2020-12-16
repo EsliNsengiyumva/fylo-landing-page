@@ -366,7 +366,7 @@ li a:hover {
    
 }
 .div-5{
-  margin-top:600px;
+  margin-top:665px;
 }
 .btn-3{
   background-color: hsl(224, 93%, 58%);
@@ -431,13 +431,22 @@ li a:hover {
 
 
 .div-8{
-  width: 100%;
+  width: 330px;
   height: auto;
   color:hsl(240, 75%, 98%);
   margin-top: 4%;
-  margin-left: 4%;
+  margin-left: 3%;
   justify-content: center;
   align-items: center;
+  align-self: center;
+}
+.pp{
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+}
+.p-1{
+  margin-left: 20%;
 }
 .div-9{
   
